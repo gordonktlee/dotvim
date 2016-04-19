@@ -13,3 +13,6 @@
 [submodule "/home/vagrant/.vim/bundle/vim-javascript"]
 	path = /home/vagrant/.vim/bundle/vim-javascript
 	url = https://github.com/pangloss/vim-javascript.git
+[submodule "/home/vagrant/.vim/bundle/syntastic"]
+	path = /home/vagrant/.vim/bundle/syntastic
+	url = https://github.com/scrooloose/syntastic.git
