@@ -7,3 +7,6 @@
 [submodule "/home/vagrant/.vim/bundle/YouCompleteMe"]
 	path = /home/vagrant/.vim/bundle/YouCompleteMe
 	url = https://github.com/Valloric/YouCompleteMe.git
+[submodule "/home/vagrant/.vim/bundle/ag"]
+	path = /home/vagrant/.vim/bundle/ag
+	url = https://github.com/rking/ag.vim.git
