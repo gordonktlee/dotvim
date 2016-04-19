@@ -10,3 +10,6 @@
 [submodule "/home/vagrant/.vim/bundle/ag"]
 	path = /home/vagrant/.vim/bundle/ag
 	url = https://github.com/rking/ag.vim.git
+[submodule "/home/vagrant/.vim/bundle/vim-javascript"]
+	path = /home/vagrant/.vim/bundle/vim-javascript
+	url = https://github.com/pangloss/vim-javascript.git
