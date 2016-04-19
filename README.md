@@ -10,7 +10,9 @@
 ### Pull & Update vim bundles
     git submodule init
     git submodule update
-
+or 
+    git submodule update --init.
+    
 ### Install plugins as submodules
     cd ~/.vim
     mkdir ~/.vim/bundle
