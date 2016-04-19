@@ -11,6 +11,7 @@
     git submodule init
     git submodule update
 or 
+
     git submodule update --init.
     
 ### Install plugins as submodules
