@@ -12,7 +12,7 @@
     git submodule update
 or 
 
-    git submodule update --init.
+    git submodule update --init
     
 ### Install plugins as submodules
     cd ~/.vim
