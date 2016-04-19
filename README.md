@@ -1,7 +1,5 @@
 # dotvim
 
-## Installation
-
 ### Clone Repo
     git clone https://github.com/gordonktlee/dotvim.git ~/.vim
 
