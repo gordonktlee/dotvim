@@ -1,7 +1,7 @@
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 
-# The Silver Searcher
+" The Silver Searcher
 if executable('ag')
   " Use ag over grep
   set grepprg=ag\ --nogroup\ --nocolor
@@ -47,3 +47,14 @@ set autoread " when a file has changed on disk, just load it. Don't ask.
 
 " enable search highlight 
 :set hlsearch
+
+" Syntaxtic Recommended Settings
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+
